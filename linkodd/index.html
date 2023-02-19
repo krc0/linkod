@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+  
+</head>
+<body>
+  <div class="main-container container-fluid pb-5 p-0 m-0" style="background: url(images/backround.svg );">
+    <!--?header-->
+    <header class="header px-4 m-0 d-flex justify-content-between align-items-center">
+      <p class="m-0 p-0">LİNKOD</p>
+      <div class="">
+        <i class="fa-sharp fa-solid fa-bars" style="font-size: 3.4rem; cursor: pointer;" onclick="barClick()"></i>
+        <div class="bar-box m-0 justify-content-center">
+          <div class="row w-100 mt-3 d-flex justify-content-center" style="height: 5rem;">
+            <div class="wp w-100 d-flex justify-content-end" style="margin-right: 2rem;"><i class="fa-solid fa-xmark m-0 p-0" style="position: absolute; top: .1rem; font-size: 3.5rem; cursor: pointer;" onclick="closeClick()"></i></div>
+            <hr class="w-100" style="color: white;">
+            <i class="fa-brands fa-instagram col-1 m-0 p-0" onclick="instagramClick()" style="cursor: pointer;"></i>
+            <br>
+            <hr class="w-100" style="color: white;">
+            <i class="fa-brands fa-youtube col-1 m-0 me-2 p-0" onclick="youtubeClick()" style="cursor: pointer;"></i>
+            <br>
+            <hr class="w-100" style="color: white;">
+            <div class="bar-text" style="font-size: 1.5rem; font-weight: 400;">Sosyal medya hesaplarımı takip etmeyi unutma</div>
+            <div class="text-center" style="font-size: 1rem; position: absolute; bottom: 1.5rem;">powered by <span style="color: #c0f500; font-size: 1.1rem;"><b>FATİH KORUCU</b></span></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--?contact-container START-->
+    <div class="container-fluid m-0 p-0 col-12 row d-flex justify-content-center">
+      <div class="contact-con row m-0 p-0 container-fluid justify-content-center col-md-8 d-flex">
+        <div class="con-1 d-flex justify-content-center row p-0 m-0 position-relative">
+          <div class="c1-title row col-11  p-0 d-flex justify-content-center align-items-center p-3">ULAŞMAK İSTEDİĞİN ADRESİN KODUNU GİR</div>
+          <div class="c1-box m-0 p-0 col-11">
+            <div class="container-fluid m-0 p-0 d-flex justify-content-center"><input type="text" class="input" id="myInput" onblur="checkInput()"></div>
+            <div class="container-fluid m-0 p-0 d-flex justify-content-center"><button class="buton" onclick="sendBtn()">GÖNDER</button></div>
+            <div class="wp w-100 p-0 m-0 d-flex justify-content-center mt-5"><div class="c1-screen m-0 p-0" style="position: absolute;"></div><span class="load ms-2 spinner-border text-white" role="status" style="width: 3rem; height: 3rem;"></span></div></div>
+          </div>
+        <!--contact-2-->
+        <div class="con-2 d-flex justify-content-center row p-0 position-relative">
+          <div class="c2-title row col-11 d-flex justify-content-center align-items-center p-0">LİNKOD NEDİR?</div>
+          <div class="c2-box row col-11 m-0 p-0 d-flex justify-content-center align-items-center">
+            <div>
+              Her farklı sayı farklı linkleri açar.
+              Örneğin <div class="d-inline" style="color: #FFB800;">000</div> kodu sizi benim kişisel web siteme
+              gönderir :)
+            </div>
+          </div>
+        </div>
+        <!--contact-3-->
+        <div class="con-3 col-11 d-flex justify-content-center row p-0 position-relative">
+          <div class="c3-title d-flex justify-content-center align-items-center">ADRESLER</div>
+          <div class="c3-box">
+            <span style="color: #FFB800;">1</span></span> <span style="color: white;"> : Spotify Çalma Listem.</span>
+            <hr>
+            <span style="color: #FFB800;">28</span></span> <span style="color: white;"> : Telegram hesap silme linki.</span>
+            <hr>
+            <span style="color: #FFB800;">74</span></span> <span style="color: white;"> : Kim Yunan Dostu? Kadir Mısıroğlu'mu yoksa M.Kemal Atatürk'mü?.</span>
+            <hr>
+            <span style="color: #FFB800;">3</span></span> <span style="color: white;"> : İnstagram gizli profile bakma.</span>
+            <hr>
+            <span style="color: #FFB800;">5</span></span> <span style="color: white;"> : Hafıza Sarayı nedir? her derste başarılı ol. Bilgiyi hafıza sarayında sakla.</span>
+            <hr>
+            <span style="color: #FFB800;">12</span></span> <span style="color: white;"> : Sansürsüz Tarih adlı Youtube kanalını izlemeni şiddetle tavsiye ederim.</span>
+            <hr>
+            <span style="color: #FFB800;">13</span></span> <span style="color: white;"> : Sansürsüz Tarih adlı İnstagram hesabını takip etmeni şiddetle tavsiye ederim ;)</span>
+            
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    </div>
+  <div class="footer container-fluid m-0 p-0"></div>
+  <script src="JAVASCRIPT/bootstrap.bundle.min.js"></script>
+  <script src="JAVASCRIPT/script.js"></script>
+</body>
+</html>

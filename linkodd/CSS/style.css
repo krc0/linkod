@@ -1,0 +1,173 @@
+/*Inter*/ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*? main START*/
+html{
+    font-size: 62.5%;
+    margin-bottom: 2rem;
+    height: 0rem;
+}
+
+.load{
+    visibility: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+/*! main END*/
+/*?main container START*/
+/*?header START*/
+.header{
+    background: #1768BA;
+    height: 6rem;
+    font-style: normal;
+    font-size: 3.4rem;
+    font-family: 'Inter';
+    color: white;
+    font-weight: 700;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/*bar START*/
+.bar-box{
+    display: none;
+    width: 20rem;
+    height: 100vh;
+    background: #1768BA;
+    opacity: 100%;
+    position: fixed;
+    top: 1rem;
+    right: 0;
+    z-index: 999;
+    padding-top: 4rem;
+}
+/*bar END*/
+
+/*!header END*/
+/*?contact-1 START*/
+.con-1{
+    top: 7.5rem;
+}
+
+.c1-title{
+    background: #4E81BC;
+    border-radius: 2rem;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 700;
+    width: 90%;
+    height: 7.9rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.c1-box{
+    background: #4E81BC;
+    border-radius: 2rem;
+    height: 35rem;
+}
+
+.input{
+    width: 50%;
+    height: 8rem;
+    border: none;
+    border-radius: 3.2rem;
+    margin-top: 6rem;
+    font-size: 8rem;
+    outline: none;
+    text-align: center;
+    transition: .4s ease-in-out all;
+    color: #4E81BC;
+}
+
+.input:focus{
+    box-shadow: 0 0 1rem white;
+    transform: scale(1.1);
+    color: #5e94d3;
+    text-shadow: 0 0 .2rem #5e94d3;
+}
+
+.buton{
+    margin-top: 5rem;
+    border: none;
+    border-radius: 1.9rem;
+    width: 40%;
+    height: 7rem;
+    background: #153F6E;
+    outline: .1rem solid #153F6E;
+    outline-offset: .5rem;
+    color: white;
+    font-size: 2.8rem;
+    font-weight: 600;
+    transition: .4s ease all;
+}
+
+.buton:hover{
+    outline-offset: 0;
+    color: #ffffffc7;
+    box-shadow: 0 0 1rem #153F6E;
+}
+
+.c1-screen{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+}
+/*!contact-1 END*/
+/*?contact-2 START*/
+
+.c2-title{
+    background: #4E81BC;
+    border-radius: 2rem 2rem 2rem 0;
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 700;
+    width: 90%;
+    height: 7.9rem;
+    position: relative;
+    margin-bottom: 16rem;
+    top: 14rem;
+}
+
+.c2-box{
+    background: #4E81BC;
+    border-radius: 0 2rem 2rem 2rem;
+    height: 17.1rem;
+    color: white;
+    font-size: 2.7rem;
+    font-weight: 500;
+}
+/*!contact-2 END*/
+
+
+.c3-title{
+    background: #4E81BC;
+    border-radius: 2rem 2rem 2rem 0;
+    color: white;
+    font-size: 3.3rem;
+    font-weight: 700;
+    width: 90%;
+    height: 7.9rem;
+    position: relative;
+    margin-bottom: 16rem;
+    top: 14rem;
+}
+
+.c3-box{
+    background: #4E81BC;
+    border-radius: 0 2rem 2rem 2rem;
+    height: auto;
+    padding: 1rem 0 1rem 0;
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.footer{
+    background: #4E81BC;
+    height: 1.5rem;
+}
+/*!main container END*/
